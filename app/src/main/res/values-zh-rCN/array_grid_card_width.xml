@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_grid_card_width_entries">
+        <item>小号</item>
+        <item>中号</item>
+        <item>大号</item>
+        <item>加大号</item>
+        <item>超大号</item>
+    </string-array>
+</resources>

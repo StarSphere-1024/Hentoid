@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:x="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Interface -->
+    <string name="pref_screen_interface">界面与导航</string>
+    <string name="pref_cat_library">书库</string>
+    <string name="pref_drawer_sources_title">管理来源</string>
+    <string name="pref_drawer_sources_summary">启用、停用并重新排列左侧导航栏中显示的网站</string>
+    <string name="pref_library_display_title">显示类型</string>
+    <string name="pref_library_display_summary">书籍和分组的显示类型\n当前：<x:g example="List" id="display_type">%s</x:g></string>
+    <string name="pref_endless_scroll_title">无限滚动</string>
+    <string name="pref_endless_scroll_summary_off">在下载列表中启用无限滚动\n停用分页</string>
+    <string name="pref_endless_scroll_summary_on">尽情滚动浏览</string>
+    <string name="pref_quantity_per_page_title">每页数量</string>
+    <string name="pref_quantity_per_page_summary">下载列表每页的项目数\n当前：<x:g example="10" id="count">%s</x:g> 项</string>
+    <string name="pref_top_fab_title">返回顶部按钮</string>
+    <string name="pref_top_fab_summary_off">按钮已停用</string>
+    <string name="pref_top_fab_summary_on">按钮已启用</string>
+    <string name="pref_cat_library_grid">书库 / 网格视图自定义</string>
+    <string name="pref_display_grid_title_title">标题</string>
+    <string name="pref_display_grid_lang_title">语言标志</string>
+    <string name="pref_display_grid_fav_title">设置收藏</string>
+    <string name="pref_display_grid_rating_title">设置评分</string>
+    <string name="pref_display_grid_source_title">查看来源</string>
+    <string name="pref_display_grid_storage_title">存储信息</string>
+    <string name="pref_grid_card_width">书籍显示宽度</string>
+    <string name="pref_cat_search">高级搜索</string>
+    <string name="pref_attributes_list_order_title">显示元数据的排序顺序</string>
+    <string name="pref_attributes_list_count_title">统计可用书籍</string>
+    <string name="pref_attributes_list_count_on">每个属性旁会显示可用书籍数量</string>
+    <string name="pref_attributes_list_count_off">不显示可用书籍数量</string>
+    <string name="pref_cat_theme">应用主题</string>
+    <string name="pref_color_theme_title">配色主题</string>
+    <string name="pref_color_theme_summary">当前主题：<x:g example="Deep Red" id="theme_name">%s</x:g></string>
+    <string name="pref_misc">其他</string>
+    <string name="pref_cat_language">界面语言</string>
+    <string name="pref_force_english_title">强制使用英语</string>
+    <string name="pref_force_english_summary_off">如果有可用翻译，\n则使用设备语言</string>
+    <string name="pref_force_english_summary_on">使用英语</string>
+
+    <!-- Storage -->
+    <string name="pref_screen_storage">存储</string>
+    <string name="pref_cat_downloads_folder">Hentoid 书库</string>
+    <string name="pref_select_folder_title">选择下载文件夹</string>
+    <string name="pref_select_folder_summary">选择 Hentoid 保存下载内容的位置</string>
+    <string name="pref_import_queue_empty_title">将空书籍导入队列并标记为错误</string>
+    <string name="pref_import_queue_empty_on">空书籍将作为错误项添加到队列</string>
+    <string name="pref_import_queue_empty_off">空书籍将添加到书库</string>
+    <string name="pref_folder_naming_content_title">文件夹名称</string>
+    <string name="pref_folder_naming_content_summary">书籍文件夹命名规则：\n<x:g example="Name - ID" id="convention">%s</x:g></string>
+    <string name="pref_import_running">导入已在运行</string>
+    <string name="pref_import_browser_mode">应用处于浏览器模式</string>
+    <string name="prefs_ask_detach_external_library">要断开外部书库吗\?</string>
+    <string name="prefs_external_library_detached">已断开外部书库</string>
+    <string name="pref_folder_trunc_title">截断文件夹名称</string>
+    <string name="pref_folder_trunc_summary">书籍文件夹名称截断长度\n当前：<x:g example="80 characters" id="chars">%s</x:g></string>
+    <string name="pref_memory_usage_title">存储空间使用情况</string>
+    <string name="pref_memory_usage_summary">当前可用空间：<x:g example="13.37%" id="percentage">%.2f%%</x:g>（点击查看详情）</string>
+    <string name="pref_memory_alert_title">存储空间不足时提醒</string>
+    <string name="pref_cat_external">外部书库</string>
+    <string name="pref_external_library_title">外部书库</string>
+    <string name="pref_external_library_summary_empty">未设置外部书库</string>
+    <string name="pref_external_library_delete_title">允许删除外部内容</string>
+    <string name="pref_external_library_delete_on">Hentoid 可以删除外部书库中的书籍和页面</string>
+    <string name="pref_external_library_delete_off">Hentoid 无法删除外部书库中的书籍或页面</string>
+    <string name="pref_external_library_detach_title">断开外部书库</string>
+    <string name="pref_external_library_detach_summary">不再将外部书库纳入 Hentoid</string>
+    <string name="pref_cat_eh">E-hentai / ExHentai</string>
+    <string name="pref_cat_advanced">高级</string>
+    <string name="pref_refresh_library_title">刷新书库</string>
+    <string name="pref_refresh_library_summary">手动刷新书库内容</string>
+    <string name="mass_operations_title">批量操作</string>
+    <string name="mass_operations_summary">对书库执行批量操作</string>
+    <plurals name="pref_ask_delete_all_except_favs">
+        <item quantity="one">要删除 <x:g example="1" id="count">%d</x:g> 本书吗\?</item>
+        <item quantity="other">要删除 <x:g example="2" id="count">%d</x:g> 本书吗\?</item>
+    </plurals>
+
+    <!-- Browser -->
+    <string name="pref_screen_browser">浏览器</string>
+    <string name="pref_browser_behaviour">行为</string>
+    <string name="pref_browser_resume_last_title">恢复到上次浏览的页面</string>
+    <string name="pref_browser_resume_last_off">任何网站始终从首页打开</string>
+    <string name="pref_browser_resume_last_on">任何网站均从上次浏览的页面打开</string>
+    <string name="pref_browser_dl_action_title">下载操作</string>
+    <string name="pref_browser_quick_dl_title">快速下载</string>
+    <string name="pref_browser_quick_dl_summary">在书籍列表页面，长按任意书籍即可下载</string>
+    <string name="pref_browser_nhentai_invisible_blacklist_title">隐藏 nhentai 黑名单中的书籍</string>
+    <string name="pref_browser_nhentai_invisible_blacklist_off">nhentai 黑名单中的书籍会被模糊显示</string>
+    <string name="pref_browser_nhentai_invisible_blacklist_on">nhentai 黑名单中的书籍不可见</string>
+    <string name="pref_browser_quick_dl_threshold_title">快速下载长按时长阈值</string>
+    <string name="pref_browser_quick_dl_threshold_summary">按住此时长即可开始快速下载\n当前：<x:g example="1 s" id="time">%s</x:g></string>
+    <string name="pref_browser_duplicate_detector">重复项检测</string>
+    <string name="pref_browser_duplicate_ask_title">检查重复项</string>
+    <string name="pref_browser_duplicate_ask_off">否：始终下载</string>
+    <string name="pref_browser_duplicate_ask_on">是：下载前询问</string>
+    <string name="pref_browser_duplicate_use_title_title">使用标题</string>
+    <string name="pref_browser_duplicate_use_artist_title">使用作者</string>
+    <string name="pref_browser_duplicate_use_language_title">使用语言</string>
+    <string name="pref_browser_duplicate_use_cover_title">使用封面</string>
+    <string name="pref_browser_duplicate_try_pages_title">是否尝试在可能重复的书籍中查找额外页面\?</string>
+    <string name="pref_browser_duplicate_try_pages_off">仅尝试在原书中查找额外页面</string>
+    <string name="pref_browser_duplicate_try_pages_on">尝试在可能重复的书籍中查找额外页面</string>
+    <string name="pref_browser_mark_downloaded_title">标记已下载的书籍</string>
+    <string name="pref_browser_mark_downloaded_off">已下载的书籍不作特殊显示</string>
+    <string name="pref_browser_mark_downloaded_on">已下载的书籍会显示标记\n注意：并非所有网站都支持</string>
+    <string name="pref_browser_mark_merged_title">标记已合并的书籍</string>
+    <string name="pref_browser_mark_merged_off">已合并的书籍不作特殊显示</string>
+    <string name="pref_browser_mark_merged_on">已合并的书籍会显示标记\n注意：并非所有网站都支持</string>
+    <string name="pref_browser_mark_queued_title">标记队列中的书籍</string>
+    <string name="pref_browser_mark_queued_off">队列中的书籍不作特殊显示</string>
+    <string name="pref_browser_mark_queued_on">队列中的书籍会显示标记\n注意：并非所有网站都支持</string>
+    <string name="pref_browser_mark_blocked_title">标记带有屏蔽标签的书籍</string>
+    <string name="pref_browser_mark_blocked_off">带有屏蔽标签的书籍不作特殊显示</string>
+    <string name="pref_browser_mark_blocked_on">带有屏蔽标签的书籍会显示标记\n注意：并非所有网站都支持</string>
+    <string name="pref_browser_blocked_tags_title">屏蔽的标签</string>
+    <string name="pref_browser_blocked_tags_summary">提示：用逗号分隔标签</string>
+    <string name="pref_browser_visuals">外观</string>
+    <string name="pref_browser_augmented_title">增强浏览器</string>
+    <string name="pref_browser_augmented_off">使用默认行为</string>
+    <string name="pref_browser_augmented_on">移除广告区域并加快解析</string>
+    <string name="pref_browser_override_overview_title">停用页面概览</string>
+    <string name="pref_browser_override_overview_summary_off">停用页面概览，并允许在下方设置首选初始缩放级别</string>
+    <string name="pref_browser_override_overview_summary_on">调整下方设置以设定初始缩放级别\n注意：仅影响 hitomi 和 e-hentai</string>
+    <string name="pref_browser_force_lightmode_title">强制使用浅色模式</string>
+    <string name="pref_browser_force_lightmode_off">浏览器会根据应用主题决定以深色还是浅色模式显示页面</string>
+    <string name="pref_browser_force_lightmode_on">浏览器始终使用浅色模式</string>
+    <string name="pref_browser_initial_zoom_title">初始缩放级别</string>
+    <string name="pref_browser_initial_zoom_summary">浏览器页面首次加载时的缩放级别\n当前：<x:g example="20%" id="percentage">%s%%</x:g></string>
+    <string name="pref_browser_dns_title">通过 HTTPS 使用 DNS</string>
+    <string name="pref_browser_clear_cookies">清除 Cookie</string>
+    <string name="pref_browser_clear_cookies_site">网站</string>
+    <string name="pref_browser_clear_cookies_ok">Cookie 已成功清除</string>
+    <string name="pref_browser_clear_cookies_ko">没有可清除的 Cookie</string>
+    <string name="pref_browser_clear_cookies_missing_webview">WebView 不可用，现在无法清除 Cookie</string>
+    <string name="pref_browser_clear_cookies_updating_webview">WebView 正在更新，暂时无法清除 Cookie</string>
+    <string name="pref_browser_language_filter_title">语言筛选按钮</string>
+    <string name="pref_browser_language_filter_off">语言筛选按钮已停用\n注意：仅适用于 Hitomi</string>
+    <string name="pref_browser_language_filter_on">语言筛选按钮已启用\n注意：仅适用于 Hitomi</string>
+    <string name="pref_browser_language_filter_setting_title">语言筛选设置</string>
+    <string name="pref_browser_language_filter_setting_summary">提示：请用英语输入语言名称</string>
+
+    <!-- Downloader -->
+    <string name="pref_screen_downloader">下载器</string>
+    <string name="pref_queue_autostart_title">自动启动下载队列</string>
+    <string name="pref_queue_autostart_on">下载完成后，下载队列将自动启动</string>
+    <string name="pref_queue_autostart_off">下载队列必须手动启动</string>
+    <string name="pref_queue_wifi_only_title">仅通过 Wi-Fi 下载</string>
+    <string name="pref_queue_wifi_only_on">仅在连接 Wi-Fi 时启动下载队列</string>
+    <string name="pref_queue_wifi_only_off">设备连接到任何网络时都会启动下载队列</string>
+    <string name="pref_queue_new_position_title">新下载项的位置</string>
+    <string name="download_size_wifi_title">移动数据网络下跳过大型下载</string>
+    <string name="pref_dl_size_wifi_on">未连接 Wi-Fi 时将跳过大型下载</string>
+    <string name="pref_dl_size_wifi_off">处理所有下载</string>
+    <string name="pref_dl_size_wifi_threshold_title">大型下载的大小阈值</string>
+    <string name="pref_dl_pages_wifi_threshold_title">大型下载的页面数阈值</string>
+    <string name="download_retries_screen_title">自动重试下载</string>
+    <string name="download_retries_active_title">已启用重试</string>
+    <string name="pref_dl_retries_on">下载失败后将自动重试</string>
+    <string name="pref_dl_retries_off">下载失败后将保持错误状态</string>
+    <string name="pref_dl_retries_number_title">中止前的重试次数</string>
+    <string name="pref_dl_retries_mem_limit_title">中止前的内存使用阈值</string>
+    <string name="tag_blocking_screen_title">标签屏蔽</string>
+    <string name="pref_dl_blocked_tags_title">屏蔽的标签</string>
+    <string name="pref_dl_blocked_tags_summary">屏蔽带有指定标签的书籍下载\n提示：用逗号分隔标签</string>
+    <string name="pref_dl_blocked_tags_behaviour_title">屏蔽行为</string>
+    <string name="download_eh_hires_title">下载高分辨率图片</string>
+    <string name="pref_dl_eh_hires_on">有可用的高分辨率图片时下载\n注意：启用此选项会更快耗尽 E-hentai/Exhentai 的图片查看额度</string>
+    <string name="pref_dl_eh_hires_off">下载网站上显示的图片</string>
+    <string name="pref_dl_threads_quantity_title">并行下载数</string>
+    <string name="pref_dl_threads_quantity_summary">同时下载的图片数量\n当前：<x:g example="5" id="number">%s</x:g></string>
+    <string name="pref_dl_speed_cap_title">下载速度上限</string>
+    <string name="pref_dl_http_429_default_delay_title">HTTP 429 默认延迟（秒）</string>
+
+    <!-- Privacy -->
+    <string name="pref_screen_privacy">隐私</string>
+    <string name="pref_app_preview_title">最近任务中的应用预览</string>
+    <string name="pref_app_preview_summary_off">已停用最近任务中的应用预览\n如需截图，请启用此选项</string>
+    <string name="pref_app_preview_summary_on">已启用最近任务中的应用预览</string>
+    <string name="pref_screenshot_title">允许截屏</string>
+    <string name="pref_screenshot_summary_off">已停用最近任务中的应用预览和截屏</string>
+    <string name="pref_screenshot_summary_on">已允许截屏</string>
+    <string name="pref_analytics_preference_title">Firebase Analytics</string>
+    <string name="pref_analytics_preference_summary_off">目前已停用分析跟踪。\n启用后，我们可以通过跟踪崩溃和异常来改进应用。</string>
+    <string name="pref_analytics_preference_summary_on">分析跟踪已启用。\n感谢您帮助改进 Hentoid！</string>
+
+    <!-- Updates -->
+    <string name="pref_screen_updates">更新</string>
+    <string name="pref_check_updates_manual_title">手动检查更新</string>
+    <string name="pref_check_updates_manual_summary">立即手动检查更新</string>
+    <string name="pref_check_updates_manual_checking">正在检查更新…</string>
+    <string name="pref_check_updates_manual_new">发现新版本！- 请通过通知进行安装</string>
+    <string name="pref_check_updates_manual_no_new">未发现更新 - 当前已是最新版本</string>
+    <string name="pref_check_updates_manual_no_connection">无法检查更新。请检查网络连接或稍后重试</string>
+    <string name="pref_check_updates_title">自动更新</string>
+    <string name="pref_check_updates_summary_off">启用通过移动数据自动检查更新</string>
+    <string name="pref_check_updates_summary_on">注意：不影响手动检查更新</string>
+
+    <!-- Viewer -->
+    <string name="pref_screen_viewer">阅读器</string>
+    <string name="pref_viewer_controls">控制</string>
+    <string name="pref_viewer_browse_mode">浏览模式</string>
+    <string name="pref_viewer_page_turn">翻页控制</string>
+    <string name="pref_viewer_page_turn_swipe">滑动</string>
+    <string name="pref_viewer_page_turn_tap">点击屏幕边缘</string>
+    <string name="pref_viewer_page_turn_tap_2x">较大的点击区域</string>
+    <string name="pref_viewer_page_turn_volume">音量按钮</string>
+    <string name="pref_viewer_page_turn_keyboard">键盘左 / 右键</string>
+    <string name="pref_viewer_swipe_to_fling">滑动翻页</string>
+    <string name="pref_viewer_invert_volume">反转音量按钮</string>
+    <string name="pref_viewer_book_switch">切换书籍控制</string>
+    <string name="pref_viewer_book_switch_volume">音量按钮（长按）</string>
+    <string name="pref_viewer_zoom">缩放控制</string>
+    <string name="pref_viewer_zoom_double_tap">双击缩放</string>
+    <string name="pref_viewer_zoom_holding">按住时临时缩放</string>
+    <string name="pref_viewer_cap_tap_zoom">限制双击和长按缩放</string>
+    <string name="pref_viewer_visuals">外观</string>
+    <string name="pref_viewer_horizontal_reader">横向阅读器</string>
+    <string name="pref_viewer_vertical_reader">纵向阅读器</string>
+    <string name="pref_viewer_keep_screen_on">保持屏幕常亮</string>
+    <string name="pref_viewer_display_notch">显示至刘海区域</string>
+    <string name="pref_viewer_display_pagenum">始终显示页码</string>
+    <string name="pref_viewer_tap_transitions">启用翻页动画</string>
+    <string name="pref_viewer_zoom_transitions">启用缩放动画</string>
+    <string name="pref_viewer_maintain_horizontal_zoom">翻页时保持缩放级别</string>
+    <string name="pref_viewer_separating_bars">纵向模式下显示分隔线</string>
+    <string name="pref_viewer_display_mode">横向阅读的显示模式</string>
+    <string name="pref_viewer_rendering">渲染</string>
+    <string name="pref_viewer_rendering_mode">渲染模式</string>
+    <string name="pref_viewer_color_depth">色彩深度</string>
+    <string name="pref_viewer_rendering_no_android5">Android 5 不支持平滑渲染</string>
+    <string name="pref_viewer_auto_rotate">自动旋转图片</string>
+    <string name="pref_viewer_auto_rotate_summary_off">图片不会旋转</string>
+    <string name="pref_viewer_auto_rotate_summary_on">旋转图片以更好地适应屏幕</string>
+    <string name="pref_viewer_gallery_columns">画廊列数</string>
+    <string name="pref_viewer_navigation">导航与行为</string>
+    <string name="pref_viewer_resume_last_left_title">重新打开书籍时继续阅读</string>
+    <string name="pref_viewer_resume_last_left_summary_off">重新打开书籍时始终从第 1 页开始</string>
+    <string name="pref_viewer_resume_last_left_summary_on">重新打开书籍时从上次阅读的页面继续，但已读到书末时除外</string>
+    <string name="pref_viewer_open_gallery">始终以画廊模式打开</string>
+    <string name="pref_viewer_chaptered_navigation_title">按章节导航</string>
+    <string name="pref_viewer_chaptered_navigation_summary_off">上一页 / 下一页按钮会切换到上一本 / 下一本书</string>
+    <string name="pref_viewer_chaptered_navigation_summary_on">上一页 / 下一页按钮会切换到当前书籍的上一章 / 下一章</string>
+    <string name="pref_viewer_continuous_title">连续阅读</string>
+    <string name="pref_viewer_continuous_summary_off">在最后一页使用下一页不会有任何效果</string>
+    <string name="pref_viewer_continuous_summary_on">在最后一页使用下一页会加载下一本书</string>
+    <string name="pref_viewer_read_threshold">阅读 N 页后将书籍标记为已读</string>
+    <string name="pref_viewer_ratio_completed_threshold">阅读 N% 的页面后将书籍标记为已完成</string>
+    <string name="pref_viewer_slideshow_delay">每页之间的间隔（横向显示）</string>
+    <string name="pref_viewer_slideshow_delay_vertical">滚动速度（纵向显示）</string>
+    <string name="pref_viewer_slideshow_loop">循环播放</string>
+    <string name="doh_warning">部分网站无法很好地兼容通过 HTTPS 使用 DNS。如果浏览时遇到问题（例如页面空白、登录表单无响应），请使用外部 DNS 应用</string>
+
+    <!-- Misc -->
+    <string name="pref_text_select_menu_title">文本选择菜单</string>
+    <string name="pref_text_select_menu_summary_off">设备的文本选择菜单不允许通过 Hentoid 启动 nuke codes</string>
+    <string name="pref_text_select_menu_summary_on">设备的文本选择菜单允许通过 Hentoid 启动 nuke codes</string>
+</resources>

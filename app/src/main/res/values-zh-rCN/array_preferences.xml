@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Choice for "Display type" setting -->
+    <string name="pref_library_display_entries_1">列表（默认）</string>
+    <string name="pref_library_display_entries_2">网格</string>
+    <!-- Choice for "Alert on low memory" setting -->
+    <string name="pref_memory_alert_entries_1">不提醒</string>
+    <string name="pref_memory_alert_entries_2" tools:ignore="StringFormatInvalid">存储空间占用达 90% 时</string>
+    <string name="pref_memory_alert_entries_3" tools:ignore="StringFormatInvalid">存储空间占用达 95% 时</string>
+    <string name="pref_memory_alert_entries_4" tools:ignore="StringFormatInvalid">存储空间占用达 98% 时</string>
+    <!-- Choice for "Quick download long press threshold" setting -->
+    <string name="pref_browser_quick_dl_threshold_entries_1" tools:ignore="MissingTranslation">500 毫秒</string>
+    <string name="pref_browser_quick_dl_threshold_entries_2" tools:ignore="MissingTranslation">1 秒</string>
+    <string name="pref_browser_quick_dl_threshold_entries_3">1.5 秒（默认）</string>
+    <string name="pref_browser_quick_dl_threshold_entries_4" tools:ignore="MissingTranslation">2 秒</string>
+    <string name="pref_browser_quick_dl_threshold_entries_5" tools:ignore="MissingTranslation">3 秒</string>
+    <!-- Choice for "DNS over HTTPS entries" setting -->
+    <string name="pref_browser_dns_entries_1">无</string>
+    <!-- Choice for "New downloads position" setting -->
+    <string name="pref_queue_new_position_entries_1">顶部</string>
+    <string name="pref_queue_new_position_entries_2">底部</string>
+    <string name="pref_queue_new_position_entries_3">每次询问</string>
+    <!-- Choice for "Large downloads size threshold" setting -->
+    <string name="pref_dl_size_wifi_threshold_entries_1">不限制大小</string>
+    <string name="pref_dl_size_wifi_threshold_entries_2" tools:ignore="MissingTranslation">20 MB</string>
+    <string name="pref_dl_size_wifi_threshold_entries_3" tools:ignore="MissingTranslation">40 MB</string>
+    <string name="pref_dl_size_wifi_threshold_entries_4" tools:ignore="MissingTranslation">100 MB</string>
+    <string name="pref_dl_size_wifi_threshold_entries_5" tools:ignore="MissingTranslation">200 MB</string>
+    <!-- Choice for "Large downloads pages threshold" setting -->
+    <string name="pref_dl_pages_wifi_threshold_entries_1">不限制页数</string>
+    <string name="pref_dl_pages_wifi_threshold_entries_2">60 页</string>
+    <string name="pref_dl_pages_wifi_threshold_entries_3">120 页</string>
+    <string name="pref_dl_pages_wifi_threshold_entries_4">200 页</string>
+    <string name="pref_dl_pages_wifi_threshold_entries_5">500 页</string>
+    <!-- Choice for "Number of parallel downloads" setting -->
+    <string name="pref_dl_threads_quantity_entries_1">自动（默认）</string>
+    <string name="pref_dl_threads_quantity_entries_2">2（网速较慢）</string>
+    <string name="pref_dl_threads_quantity_entries_6">10（网速快；高端手机）</string>
+    <!-- Choice for "Downloader speed limit" setting -->
+    <string name="pref_dl_speed_cap_entries_1">不限速（默认）</string>
+    <string name="pref_dl_speed_cap_entries_2">100 KBps</string>
+    <string name="pref_dl_speed_cap_entries_3">200 KBps</string>
+    <string name="pref_dl_speed_cap_entries_4">400 KBps</string>
+    <string name="pref_dl_speed_cap_entries_5">800 KBps</string>
+    <!-- Choice for "Book folder naming convention" setting -->
+    <string name="pref_folder_naming_content_entries_1" tools:ignore="MissingTranslation">ID</string>
+    <string name="pref_folder_naming_content_entries_2">标题 - ID</string>
+    <string name="pref_folder_naming_content_entries_3">作者 - 标题 - ID</string>
+    <string name="pref_folder_naming_content_entries_4">标题 - 作者 - ID</string>
+    <!-- Choice for "Truncate folder name" setting -->
+    <string name="pref_folder_trunc_content_entries_1">不截断</string>
+    <string name="pref_folder_trunc_content_entries_2">60 个字符</string>
+    <string name="pref_folder_trunc_content_entries_3">80 个字符</string>
+    <string name="pref_folder_trunc_content_entries_4">100 个字符</string>
+    <string name="pref_folder_trunc_content_entries_5">120 个字符</string>
+    <!-- Choice for "Download action" setting -->
+    <string name="pref_viewer_dl_action_entries_1">下载所有页面</string>
+    <string name="pref_viewer_dl_action_entries_2">阅读时流式加载页面</string>
+    <string name="pref_viewer_dl_action_entries_3">每次询问</string>
+    <!-- Choice for "Sort order of displayed metadata" setting -->
+    <string name="pref_attribute_list_order_entries_1">按字母顺序</string>
+    <string name="pref_attribute_list_order_entries_2">按项目数量（常用的优先）</string>
+    <!-- Choice for "Mem usage threshold before aborting" setting -->
+    <string name="pref_dl_retries_mem_limit_entries_4">无限制</string>
+    <!-- Choice for "Blocking behaviour" setting -->
+    <string name="pref_dl_blocked_tags_behaviour_entries_1">不加入队列</string>
+    <string name="pref_dl_blocked_tags_behaviour_entries_2">作为下载错误加入队列</string>
+    <!-- Choice for "Browse mode" setting -->
+    <string name="pref_viewer_browse_mode_entries_1">从左到右</string>
+    <string name="pref_viewer_browse_mode_entries_2">从右到左</string>
+    <string name="pref_viewer_browse_mode_entries_3">从上到下</string>
+    <!-- Choice for "Separating bars in vertical mode" setting -->
+    <string name="pref_viewer_separating_bars_entries_1">关闭（默认）</string>
+    <string name="pref_viewer_separating_bars_entries_2">小</string>
+    <string name="pref_viewer_separating_bars_entries_3">中</string>
+    <string name="pref_viewer_separating_bars_entries_4">大</string>
+    <!-- Choice for "Mark book as read after N pages" setting -->
+    <string name="pref_viewer_read_threshold_entries_1">1 页（默认）</string>
+    <string name="pref_viewer_read_threshold_entries_2">2 页</string>
+    <string name="pref_viewer_read_threshold_entries_3">5 页</string>
+    <string name="pref_viewer_read_threshold_entries_4">所有页面</string>
+    <!-- Choice for "Slideshow delay" setting for horizontal mode -->
+    <string name="pref_viewer_slideshow_delay_entries_1" tools:ignore="MissingTranslation">500 毫秒</string>
+    <string name="pref_viewer_slideshow_delay_entries_2" tools:ignore="MissingTranslation">1 秒</string>
+    <string name="pref_viewer_slideshow_delay_entries_3">2 秒（默认）</string>
+    <string name="pref_viewer_slideshow_delay_entries_4" tools:ignore="MissingTranslation">4 秒</string>
+    <string name="pref_viewer_slideshow_delay_entries_5" tools:ignore="MissingTranslation">8 秒</string>
+    <string name="pref_viewer_slideshow_delay_entries_6" tools:ignore="MissingTranslation">16 秒</string>
+    <!-- Choice for "Slideshow delay" setting for vertical mode -->
+    <string name="pref_viewer_slideshow_delay_entries_vertical_1">极慢</string>
+    <string name="pref_viewer_slideshow_delay_entries_vertical_2">慢</string>
+    <string name="pref_viewer_slideshow_delay_entries_vertical_3">正常（默认）</string>
+    <string name="pref_viewer_slideshow_delay_entries_vertical_4">较快</string>
+    <string name="pref_viewer_slideshow_delay_entries_vertical_5">快</string>
+    <string name="pref_viewer_slideshow_delay_entries_vertical_6">极快</string>
+    <!-- Choice for "Slideshow loop" setting -->
+    <string name="pref_viewer_slideshow_loop_entries_1">到末尾停止（不循环）</string>
+    <string name="pref_viewer_slideshow_loop_entries_2">循环播放当前章节</string>
+    <string name="pref_viewer_slideshow_loop_entries_3">循环播放当前书籍</string>
+    <string name="pref_viewer_slideshow_loop_entries_4">循环播放当前书籍；遵循连续模式</string>
+    <!-- Choice for "Display mode" setting -->
+    <string name="pref_viewer_display_mode_entries_1">适应屏幕（默认）</string>
+    <string name="pref_viewer_display_mode_entries_2">填满屏幕（保持比例）</string>
+    <string name="pref_viewer_display_mode_entries_3">填满屏幕（拉伸）</string>
+    <!-- Choice for "Auto rotate" setting -->
+    <string name="pref_viewer_auto_rotate_entries_1">关闭</string>
+    <string name="pref_viewer_auto_rotate_entries_2">自动向左旋转</string>
+    <string name="pref_viewer_auto_rotate_entries_3">自动向右旋转</string>
+    <!-- Choice for "Rendering mode" setting -->
+    <string name="pref_viewer_rendering_entries_1">锐利渲染（默认）</string>
+    <string name="pref_viewer_rendering_entries_2">平滑渲染</string>
+    <!-- Choice for "Color depth" setting -->
+    <string name="pref_viewer_color_depth_entries_1">16 位（默认）</string>
+    <string name="pref_viewer_color_depth_entries_2">32 位</string>
+    <!-- Choice for "Cap double & long tap zoom" setting -->
+    <string name="pref_viewer_cap_tap_zoom_entries_1">不限制</string>
+    <string name="pref_viewer_cap_tap_zoom_entries_2" tools:ignore="MissingTranslation">2x</string>
+    <string name="pref_viewer_cap_tap_zoom_entries_3" tools:ignore="MissingTranslation">4x</string>
+    <string name="pref_viewer_cap_tap_zoom_entries_4" tools:ignore="MissingTranslation">6x</string>
+    <!-- Choice for "Lock timer" setting -->
+    <string name="pref_lock_timer_entries_1">无延迟</string>
+    <string name="pref_lock_timer_entries_2" tools:ignore="MissingTranslation">10 秒</string>
+    <string name="pref_lock_timer_entries_3">30 秒（默认）</string>
+    <string name="pref_lock_timer_entries_4" tools:ignore="MissingTranslation">1 分钟</string>
+    <string name="pref_lock_timer_entries_5">2 分钟</string>
+</resources>

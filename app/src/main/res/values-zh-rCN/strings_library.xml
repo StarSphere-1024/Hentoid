@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:x="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Library fragment -->
+    <string name="resume_closed">从上次阅读的位置继续？</string>
+    <string name="open_drawer">打开抽屉</string>
+    <string name="close_drawer">关闭抽屉</string>
+    <plurals name="ask_delete_multiple">
+        <item quantity="one">删除所选项目？</item>
+        <item quantity="other">删除所选的 <x:g example="2" id="count">%d</x:g> 个项目？</item>
+    </plurals>
+    <plurals name="ask_archive_multiple">
+        <item quantity="one">归档所选项目？</item>
+        <item quantity="other">归档所选的 <x:g example="2" id="count">%d</x:g> 个项目？</item>
+    </plurals>
+    <string name="delete_limit">一次最多只能删除 1000 本书</string>
+    <string name="redownload_limit">一次最多只能重新下载 1000 本书</string>
+    <string name="stream_limit">一次最多只能流式传输 1000 本书</string>
+    <string name="transform_limit">一次最多只能转换 1000 本书</string>
+    <string name="archive_limit">一次最多只能归档 1000 本书</string>
+    <string name="new_group_name">新分组的名称？</string>
+    <string name="group_edit_name">编辑分组名称</string>
+    <string name="book_edit_title">编辑书名</string>
+    <string name="delete_progress">正在删除书籍</string>
+    <string name="delete_pages_progress">正在删除页面</string>
+    <string name="purge_progress">正在清除书籍</string>
+    <string name="cancel_queue_progress">正在取消队列项目</string>
+    <plurals name="delete_success_books">
+        <item quantity="one">已删除 <x:g example="1" id="count">%d</x:g> 本书</item>
+        <item quantity="other">已删除 <x:g example="2" id="count">%d</x:g> 本书</item>
+    </plurals>
+    <plurals name="delete_success_groups">
+        <item quantity="one">已删除 <x:g example="1" id="count">%d</x:g> 个分组</item>
+        <item quantity="other">已删除 <x:g example="2" id="count">%d</x:g> 个分组</item>
+    </plurals>
+    <string name="delete_success">已删除</string>
+    <string name="archive_progress">正在归档书籍</string>
+    <string name="archive_progress_subtitle">完成：<x:g example="42" id="count">%s</x:g></string>
+    <string name="notif_archive_complete">归档完成</string>
+    <plurals name="notif_archive_complete_details">
+        <item quantity="one"><x:g example="1" id="count">%d</x:g> 本书已成功归档</item>
+        <item quantity="other"><x:g example="2" id="count">%d</x:g> 本书已成功归档</item>
+    </plurals>
+    <string name="notif_archive_fail">归档失败</string>
+    <plurals name="notif_archive_fail_details">
+        <item quantity="one"><x:g example="1" id="count">%d</x:g> 本书归档失败</item>
+        <item quantity="other"><x:g example="2" id="count">%d</x:g> 本书归档失败</item>
+    </plurals>
+    <plurals name="archive_success">
+        <item quantity="one"><x:g example="1" id="count">%d</x:g> 本书已归档至 Download 文件夹</item>
+        <item quantity="other"><x:g example="2" id="count">%d</x:g> 本书已归档至 Download 文件夹</item>
+    </plurals>
+    <string name="stream_canceled">流式传输已取消 - 书籍无法在线获取</string>
+    <string name="stream_missing_webview">流式传输已取消 - WebView 不可用</string>
+    <string name="stream_updating_webview">流式传输已取消 - WebView 正在更新</string>
+    <string name="download_canceled">下载已取消 - 书籍无法在线获取</string>
+    <string name="download_canceled_merged">下载已取消 - 至少有一个章节无法在线获取</string>
+    <string name="download_missing_webview">下载已取消 - WebView 不可用</string>
+    <string name="download_updating_webview">下载已取消 - WebView 正在更新</string>
+    <string name="press_back_again">快速连续按两次返回键即可退出。</string>
+    <string name="queue_empty">为什么是空的？</string>
+    <string name="errors_empty">下载中未发现错误</string>
+    <string name="downloads_empty_library">去下载点什么吧。</string>
+    <string name="downloads_loading">正在加载~</string>
+    <string name="masterdata_no_result">没有结果 :(</string>
+    <string name="search_entry_not_found">这里没有，去下载吧。</string>
+    <string name="search_bookid_label">在以下位置搜索 <x:g example="4567" id="launchcode">\'%s\'</x:g>…</string>
+    <string name="book_launchcode">启动码：<x:g example="4567" id="launchcode">%s</x:g></string>
+    <plurals name="number_of_items">
+        <item quantity="one"><x:g example="1" id="count">%d</x:g> 个项目</item>
+        <item quantity="other"><x:g example="2" id="count">%d</x:g> 个项目</item>
+    </plurals>
+    <plurals name="number_of_book_search_results">
+        <item quantity="one"><x:g example="1" id="number">%1$d</x:g>/<x:g example="7" id="total">%2$d</x:g> 个结果</item>
+        <item quantity="other"><x:g example="2" id="number">%1$d</x:g>/<x:g example="7" id="total">%2$d</x:g> 个结果</item>
+    </plurals>
+    <string name="restart_needed">"重启 Hentoid 后将应用更改"</string>
+    <plurals name="redownload_confirm" tools:ignore="ImpliedQuantity">
+        <item quantity="one">从头重新下载所选书籍？</item>
+        <item quantity="other">从头重新下载所选书籍？</item>
+    </plurals>
+    <plurals name="download_confirm" tools:ignore="ImpliedQuantity">
+        <item quantity="one">下载所选书籍？</item>
+        <item quantity="other">下载所选书籍？</item>
+    </plurals>
+    <plurals name="stream_confirm" tools:ignore="ImpliedQuantity">
+        <item quantity="one">将所选书籍切换为流式传输？</item>
+        <item quantity="other">将所选书籍切换为流式传输？</item>
+    </plurals>
+    <plurals name="redownload_external_content">
+        <item quantity="one">所选的一本书存储在外部书库中，无法重新下载\n将忽略此书。</item>
+        <item quantity="other">所选的 <x:g example="2" id="count">%d</x:g> 本书存储在外部书库中，无法重新下载\n将忽略这些书。</item>
+    </plurals>
+    <plurals name="download_non_streamed_content">
+        <item quantity="one">所选的一本书已下载\n将忽略此书。</item>
+        <item quantity="other">所选的 <x:g example="2" id="count">%d</x:g> 本书已下载\n将忽略这些书。</item>
+    </plurals>
+    <plurals name="stream_external_streamed_content">
+        <item quantity="one">所选的一本书已流式传输或属于外部书库\n将忽略此书。</item>
+        <item quantity="other">所选的 <x:g example="2" id="count">%d</x:g> 本书已设置为流式传输或位于外部书库中\n将忽略这些书。</item>
+    </plurals>
+    <string name="help_search">搜索任何内容：标题、作者、标签，\n也可以搜索启动码！</string>
+    <string name="help_page_slider">滑动页码即可更快浏览</string>
+    <plurals name="items_selected">
+        <item quantity="one">已选择 <x:g example="1" id="count">%d</x:g> 个项目</item>
+        <item quantity="other">已选择 <x:g example="2" id="count">%d</x:g> 个项目</item>
+    </plurals>
+    <string name="folder_undefined">错误 - 未定义所在文件夹</string>
+    <string name="malformed_url">错误 - URL 格式错误</string>
+    <string name="unsupported_site">错误 - 不支持此网站</string>
+    <plurals name="external_not_removed">
+        <item quantity="one">外部书库中的一本书不会被移除</item>
+        <item quantity="other">外部书库中的 <x:g example="2" id="count">%d</x:g> 本书不会被移除</item>
+    </plurals>
+    <string name="group_make_cover">设为分组封面</string>
+    <string name="group_make_cover_ask">将此书的封面设为当前分组封面？</string>
+    <string name="group_change">移至自定义分组</string>
+    <string name="group_existing">现有分组</string>
+    <string name="group_new">新建</string>
+    <string name="group_new_name">新自定义分组名称</string>
+    <string name="group_new_name_dynamic">新建已保存的搜索</string>
+    <string name="group_remove">从当前分组中移除</string>
+    <string name="group_name_exists">已存在同名分组。</string>
+    <string name="group_rename_forbidden">禁止重命名此分组！</string>
+    <string name="group_name_empty">分组名称为空！</string>
+    <string name="group_not_selected">尚未选择分组！</string>
+    <plurals name="group_delete_selected_group" tools:ignore="ImpliedQuantity">
+        <item quantity="one">仅删除分组</item>
+        <item quantity="other">仅删除分组</item>
+    </plurals>
+    <plurals name="group_delete_selected_book">
+        <item quantity="one">删除 <x:g example="1" id="count">%d</x:g> 本书</item>
+        <item quantity="other">删除 <x:g example="2" id="count">%d</x:g> 本书</item>
+    </plurals>
+    <plurals name="group_delete_selected_group_books" tools:ignore="ImpliedQuantity">
+        <item quantity="one">删除分组及书籍</item>
+        <item quantity="other">删除分组及书籍</item>
+    </plurals>
+    <string name="group_delete_nothing">没有可删除的内容 - 勾选“允许删除外部内容”以更改此设置</string>
+    <string name="clear_rating">清除评分</string>
+    <string name="clear_search_history_confirm">清除搜索历史记录？</string>
+    <string name="fav_pages">收藏页面</string>
+
+    <!-- Merge & split -->
+    <string name="notif_split_merge">拆分 / 合并</string>
+    <string name="merge_merge">合并</string>
+    <string name="reorder_progress">正在重新排序页面…</string>
+    <string name="merge_progress">正在合并书籍…</string>
+    <string name="split_progress">正在拆分书籍…</string>
+    <string name="merge_split">拆分</string>
+    <string name="new_title">新标题</string>
+    <string name="merge_use_book_title">每本书创建一个章节</string>
+    <string name="merge_delete_after_merging">合并后删除这些书籍</string>
+    <string name="split_select_help">按住并拖动以选择\n每个选定章节都会创建一本新书</string>
+    <string name="split_no_chapters">尚未创建章节 :-(</string>
+    <string name="split_create_chapters">创建章节</string>
+    <string name="merge_success">内容合并成功</string>
+    <string name="split_success">内容拆分成功</string>
+    <string name="merge_fail">内容合并失败</string>
+    <string name="split_fail">内容拆分失败</string>
+
+    <!-- Groupings -->
+    <string name="groups_flat">所有书籍</string>
+    <string name="groups_by_artist">按作者</string>
+    <string name="groups_by_dl_date">按下载日期（处理时间）</string>
+    <string name="groups_dynamic">已保存的搜索</string>
+    <string name="groups_custom">自定义分组</string>
+    <string name="no_artist_group_name">[无作者]</string>
+
+    <!-- Sort / filter bottom panel -->
+    <string name="sort_ascending">升序</string>
+    <string name="sort_descending">降序</string>
+    <string name="sort_reshuffle">重新打乱</string>
+    <string name="sort_title">标题</string>
+    <string name="sort_artist">作者</string>
+    <string name="sort_pages">页数</string>
+    <string name="sort_dl_date">下载日期（处理时间）</string>
+    <string name="sort_dl_completion_date">下载日期（完成时间）</string>
+    <string name="sort_read_date">阅读日期</string>
+    <string name="sort_reads">阅读次数</string>
+    <string name="sort_size">大小</string>
+    <string name="sort_reading_progress">阅读进度</string>
+    <string name="sort_random">随机</string>
+    <string name="sort_custom">自定义</string>
+    <string name="sort_invalid">-无效-</string>
+    <string name="sort_books">书籍</string>
+    <string name="sort_uplodad_date">上传日期</string>
+    <string name="library_filters_title">筛选条件</string>
+    <string name="library_filter_favourite_help">切换是否显示收藏的书籍</string>
+    <string name="library_filter_nonfavourite_help">切换是否显示未收藏的书籍</string>
+    <string name="filter_completed">仅显示已完成的书籍</string>
+    <string name="filter_not_completed">仅显示未完成的书籍</string>
+    <string name="filter_rating">按评分筛选</string>
+
+    <!-- Groups bottom panel -->
+    <string name="display_groups_title">显示分组</string>
+    <string name="display">显示</string>
+    <string name="display_artists">作者</string>
+    <string name="display_groups">分组</string>
+
+    <!-- Item card tooltips -->
+    <string name="drag_help">拖动项目</string>
+    <string name="external_help">属于外部书库</string>
+    <string name="rating_help">书籍评分</string>
+    <string name="streamed_help">已流式传输的书籍</string>
+    <string name="view_source_help">在浏览器中查看来源</string>
+    <string name="fav_help">标记/取消收藏</string>
+
+    <!-- Visibility fields -->
+    <string name="launchcode_present">你已经拥有这本书。要搜索其他来源吗？</string>
+
+    <!-- Updates -->
+    <string name="updates_title">更新</string>
+    <string name="checking_updates">正在检查更新</string>
+    <string name="update_available">有可用更新！</string>
+    <string name="tap_to_download">点按下载</string>
+    <string name="update_download_failed">更新下载失败</string>
+    <string name="tap_to_retry">点按重试</string>
+    <string name="downloading_update">正在下载更新</string>
+    <string name="update_ready">更新已就绪！</string>
+    <string name="tap_to_install">点按安装</string>
+
+    <!-- Alerts -->
+    <string name="alert_orange">请注意，在此网站上下载可能会失败。</string>
+    <string name="alert_red">此网站的下载按钮目前无法使用。</string>
+    <string name="alert_grey">此网站目前存在严重的稳定性问题。应用无法解决此问题，请稍后再试。</string>
+    <string name="alert_black">此网站目前确实无法访问。应用无法解决此问题，请稍后再试。</string>
+    <string name="alert_wip">Hentoid 开发团队正在修复此问题。新版本就绪后，应用会通知你。</string>
+    <string name="alert_fix_available">应用最新版本已提供修复。请更新。</string>
+
+    <!-- App Lock -->
+    <string name="app_lock_pin">输入 PIN 码</string>
+    <string name="app_lock_enable">已启用应用锁</string>
+    <string name="app_lock_disabled">已停用应用锁</string>
+    <string name="pin_reset">重置 PIN 码</string>
+    <string name="pin_reset_success">PIN 码已重置</string>
+    <string name="pin_current">输入当前 PIN 码</string>
+    <string name="pin_new">输入新 PIN 码</string>
+    <string name="pin_new_confirm">确认新 PIN 码</string>
+    <string name="pin_explanation">应用锁会在启动时要求输入 4 位 PIN 码或进行生物识别验证，以防止他人未经授权使用此应用</string>
+    <string name="pin_lock_on_restore">从后台恢复时\n锁定</string>
+    <string name="lock_type">锁定类型</string>
+    <string name="lock_type_pin">PIN 码</string>
+    <string name="lock_type_biometric">生物识别</string>
+    <string name="app_lock_biometrics_fail">未找到可用的生物识别系统</string>
+    <string name="biometric_dialog_title">生物识别锁</string>
+    <string name="biometric_dialog_subtitle_lock">锁定前确认</string>
+    <string name="biometric_dialog_subtitle_unlock">使用生物识别解锁</string>
+
+    <!-- About Activity -->
+    <string name="about1"><b>Hentoid</b> 是一款同人志和 H 漫画归档应用。Hentoid 最初由 <b>Cesar Arasaki</b> 创建。</string>
+    <string name="personalDataStatement1"><b>个人数据隐私声明</b>\n\nHentoid 是由 Hentoid 社区维护的免费开源软件（欢迎加入我们的 Discord - 链接见上方）</string>
+    <string name="personalDataStatement2">Hentoid 会收集以下个人数据，并通过 Firebase 库发送给 Google 进行处理：\n  - 会话 ID\n  - IP 地址</string>
+    <string name="personalDataStatement3">上述数据会在 180 天内从 Firebase 实时系统和备份系统中删除（详情请见 https://firebase.google.com/support/privacy/）\n\n不会收集其他个人数据，也不会将数据发送给任何其他方。</string>
+    <string name="about_licenses">许可证</string>
+    <string name="about_achievements">成就</string>
+    <string name="about_app_version" tools:ignore="MissingTranslation">Hentoid v<x:g example="1.15.20" id="ver_name">%1$s</x:g>（<x:g example="130" id="ver_code">%2$d</x:g>）</string>
+    <string name="about_chrome_version" tools:ignore="MissingTranslation">Chrome v<x:g example="98" id="chrome_ver">%1$d</x:g></string>
+    <string name="about_chrome_unavailable">WebView 不可用</string>
+    <string name="about_chrome_updating">WebView 正在更新</string>
+
+    <!-- Web browser -->
+    <string name="web_gallery">返回最新的画廊页面</string>
+    <string name="web_home">返回书库</string>
+    <string name="web_back">后退</string>
+    <string name="web_forward">前进</string>
+    <string name="web_bookmarks">书签</string>
+    <string name="web_refresh_stop">刷新/停止</string>
+    <string name="web_url">使用链接</string>
+    <string name="web_adblocker_on">广告拦截器（开启）</string>
+    <string name="web_adblocker_off">广告拦截器（关闭）</string>
+    <string name="web_open_ext_browser">外部浏览器</string>
+    <string name="web_download">下载</string>
+    <string name="web_unparsable">无法下载此内容。抱歉~</string>
+    <string name="web_url_clipboard">URL 已复制到剪贴板</string>
+    <string name="help_web_download">你已到达书籍页面。\n现在可以使用底部栏下载！</string>
+    <string name="blocked_tag">书籍含有被屏蔽的标签（<x:g example="bad" id="tag">%s</x:g>）\n下载已取消</string>
+    <string name="blocked_tag_queued">书籍含有被屏蔽的标签（<x:g example="bad" id="tag">%s</x:g>）\n已作为错误加入队列</string>
+    <string name="bookmark_current">为当前页面添加书签</string>
+    <string name="unbookmark_current">移除当前页面的书签</string>
+    <string name="bookmark_copy_url">将书签 URL 复制到剪贴板</string>
+    <string name="bookmark_toggle_welcome">将书签 URL 切换为欢迎页</string>
+    <string name="bookmark_change_site">更改网站</string>
+    <string name="bookmark_edit_title">编辑书签标题</string>
+    <string name="alert_unwanted_tags">此书带有标签 <x:g example="bad" id="tag">%s</x:g></string>
+    <string name="bookmark_homepage">主页</string>
+    <string name="torrent_dl_fail">下载种子失败：<x:g id="torrent">%s</x:g></string>
+    <string name="web_storage_permission_denied">存储权限被拒绝 - 无法使用下载器</string>
+    <string name="web_all_sites">所有网站</string>
+
+    <!-- Web browser (site specifics) -->
+    <string name="help_web_exh_account">请使用或创建 exHentai 账号</string>
+    <string name="help_web_invalid_exh_credentials">凭据无效，请重新登录</string>
+    <string name="help_web_incomplete_exh_credentials">凭据不完整，请重新登录。如果问题仍然存在，请考虑从其他国家/地区访问网站或创建新账号。</string>
+    <string name="help_web_hires_eh_account">要下载高清图片，你需要使用或创建 e-Hentai 账号</string>
+
+    <!-- SearchActivity -->
+    <string name="category_any">任意</string>
+    <string name="exclude">排除</string>
+    <string name="search_category"><x:g example="Language" id="search_category">%s</x:g> 搜索</string>
+    <string name="searching_generic">正在搜索</string>
+    <string name="search_prompt">搜索 <x:g id="search_prompt">%s</x:g></string>
+    <!-- Used as a category on the search screen -->
+    <string name="category_artist">作者</string>
+    <string name="category_tag">标签</string>
+    <string name="category_character">角色</string>
+    <string name="category_series">系列</string>
+    <string name="category_language">语言</string>
+    <string name="category_source">来源</string>
+    <string name="category_uploader">上传者</string>
+    <string name="category_circle">社团</string>
+    <string name="category_category">类别</string>
+    <string name="category_translator">翻译者</string>
+    <string name="category_publisher">出版商</string>
+    <string name="category_undefined">未定义</string>
+    <!-- Used near items or in prompts (e.g. "Search artist"): Accusative case -->
+    <string name="object_artist">作者</string>
+    <string name="object_tag">标签</string>
+    <string name="object_character">角色</string>
+    <string name="object_series">系列</string>
+    <string name="object_language">语言</string>
+    <string name="object_source">来源</string>
+    <string name="object_uploader">上传者</string>
+    <string name="object_circle">社团</string>
+    <string name="object_category">类别</string>
+    <string name="object_translator">翻译者</string>
+    <string name="object_publisher">出版商</string>
+    <string name="object_undefined">未定义</string>
+    <plurals name="search_button">
+        <item quantity="one">找到 <x:g example="1" id="count">%s</x:g> 个结果</item>
+        <item quantity="other">找到 <x:g example="2" id="count">%s</x:g> 个结果</item>
+    </plurals>
+    <string name="search_select_a_filter">选择筛选条件</string>
+    <string name="search_location">位置</string>
+    <string name="search_location_entries_1">所有位置</string>
+    <string name="search_type">类型</string>
+    <string name="search_type_entries_1">所有书籍类型</string>
+    <string name="search_type_entries_2">文件夹</string>
+    <string name="search_type_entries_3">流式传输</string>
+    <string name="search_type_entries_4">归档</string>
+    <string name="search_type_entries_5">占位符</string>
+    <string name="search_type_entries_6">PDF</string>
+</resources>

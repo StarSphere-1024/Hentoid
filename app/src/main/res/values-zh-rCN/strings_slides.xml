@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="slide_01_header">欢迎使用 Hentoid！</string>
+    <string name="slide_01_text">Hentoid 是一款同人志\n&amp; H 漫画归档应用。</string>
+    <!-- Permissions -->
+    <string name="slide_02_header">权限</string>
+    <string name="slide_02_browser_mode_title">仅浏览</string>
+    <string name="slide_02_browser_mode_description">使用应用浏览网站。\n\n无法下载书籍或管理书库。\n\n无需任何权限。</string>
+    <string name="slide_02_library_mode_title">浏览并下载</string>
+    <string name="slide_02_library_mode_description">使用应用下载内容并管理书库。\n\n需要存储访问权限。</string>
+    <!-- Library import -->
+    <string name="slide_04_header">书库</string>
+    <string name="slide_04_text">Hentoid 需要一个专用文件夹来存储媒体文件。</string>
+    <string name="slide_04_skip">跳过</string>
+    <!-- Dialog title -->
+    <string name="slide_04_skip_title">跳过？</string>
+    <string name="slide_04_skip_msg">跳过此步骤后将无法下载。\n如需下载，你必须在应用设置中指定下载文件夹。</string>
+    <string name="slide_05_header">主题</string>
+    <string name="slide_05_text">选择显示主题。</string>
+    <string name="slide_06_header">来源</string>
+    <!-- Description text -->
+    <string name="slide_06_text">选择要从中下载的来源。</string>
+    <string name="slide_06_subtext">之后随时可以通过左侧菜单中的编辑按钮更改此选择。</string>
+    <string name="slide_end_header">设置完成！</string>
+    <string name="slide_end_text">一切就绪！\n尽情使用吧。</string>
+</resources>

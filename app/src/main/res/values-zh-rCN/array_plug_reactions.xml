@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Plugging in audio device reaction -->
+    <string name="audio_plug1">不要啦~~♡</string>
+    <string name="audio_plug2">停下，那是……插错地方了~</string>
+    <string name="audio_plug3">呃啊~</string>
+    <string name="audio_plug4">讨厌 ♡ ♡</string>
+    <string name="audio_plug5">不是那里~~♡</string>
+    <string name="audio_plug6">你好坏啊~~</string>
+    <string name="audio_plug7">太……紧了……♡</string>
+    <!-- Plugging in power cord reaction -->
+    <string name="power_plug1">我喜欢那里~~</string>
+    <string name="power_plug2">再往里推一点~~~♡</string>
+    <string name="power_plug3">要去了~~</string>
+    <string name="power_plug4">啊 ♡</string>
+    <string name="power_plug5">哦~~</string>
+    <string name="power_plug6">再多给我一点 ♡</string>
+</resources>

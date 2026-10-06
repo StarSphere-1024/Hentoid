@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Activity Title -->
+    <string name="tools_title">工具</string>
+    <!-- Menu item -->
+    <string name="tools_screen_import_export">导入 / 导出</string>
+
+    <!-- Button -->
+    <string name="tools_export_library_title">导出元数据</string>
+    <!-- Button description -->
+    <string name="tools_export_library_summary">将 Hentoid 书籍导出到 JSON 文件</string>
+    <!-- Button -->
+    <string name="tools_import_library_title">导入元数据</string>
+    <!-- Button description -->
+    <string name="tools_import_library_summary">从 JSON 文件恢复已导出的 Hentoid 书籍</string>
+    <!-- Subheading -->
+    <string name="tools_screen_cat_settings">设置</string>
+    <!-- Button -->
+    <string name="tools_export_settings_title">导出设置</string>
+    <!-- Button description -->
+    <string name="tools_export_settings_summary">将设置导出到 JSON 文件</string>
+    <!-- Button -->
+    <string name="tools_import_settings_title">导入设置</string>
+    <!-- Button description -->
+    <string name="tools_import_settings_summary">恢复已导出的设置</string>
+
+    <!-- Menu item -->
+    <string name="tools_screen_library">书库管理</string>
+    <!-- Menu item -->
+    <string name="tools_duplicate_detector_title">重复项检测</string>
+    <!-- Menu item description -->
+    <string name="tools_duplicate_detector_summary">识别并移除重复书籍</string>
+
+    <!-- Menu item -->
+    <string name="tools_screen_cache">缓存管理</string>
+    <!-- Button -->
+    <string name="tools_cache_browser">清除浏览器缓存</string>
+    <!-- Toast notification -->
+    <string name="tools_cache_browser_success">WebView 缓存已成功清除</string>
+    <string name="tools_cache_browser_missing_webview">WebView 不可用，暂时无法清除缓存</string>
+    <string name="tools_cache_browser_updating_webview">WebView 正在更新，暂时无法清除缓存</string>
+    <!-- Button -->
+    <string name="tools_cache_app">清除应用缓存</string>
+    <!-- Toast notification -->
+    <string name="tools_cache_app_success">应用缓存已成功清除</string>
+
+    <!-- Menu item -->
+    <string name="tools_renaming_rules_title">属性重命名规则</string>
+    <!-- Menu item description -->
+    <string name="tools_renaming_rules_summary">管理属性重命名规则</string>
+
+    <!-- Menu item -->
+    <string name="tools_latest_logs_title">应用日志</string>
+    <!-- Menu item description -->
+    <string name="tools_latest_logs_summary">查看应用的最新日志</string>
+
+    <!-- Menu item -->
+    <string name="tools_ram_usage_title">RAM 使用情况</string>
+    <!-- Menu item description -->
+    <string name="tools_ram_usage_summary">显示当前 RAM 使用情况</string>
+
+
+    <!-- Metadata import -->
+    <string name="tools_import_empty_books_intro">如果未检测到图片文件夹…</string>
+    <string name="tools_import_empty_books_entries_1">不导入</string>
+    <string name="tools_import_empty_books_entries_2">作为空书籍导入</string>
+    <string name="tools_import_empty_books_entries_3">如可行，作为流式书籍导入</string>
+    <string name="tools_import_empty_books_entries_4">添加到错误队列</string>
+</resources>
