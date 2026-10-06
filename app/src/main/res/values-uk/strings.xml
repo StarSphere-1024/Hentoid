@@ -634,9 +634,6 @@
 
     <!-- About Activity -->
     <string name="about1"><b>Hentoid</b> — це додаток для завантаження додзінсі і хентай-манґи. Hentoid спочатку був створений <b>Сесаром Арасакі</b>.</string>
-    <string name="personalDataStatement1"><b>ЗАЯВА ПРО КОНФІДЕНЦІЙНІСТЬ ПЕРСОНАЛЬНИХ ДАНИХ</b>\n\nHentoid — це безкоштовне програмне забезпечення з відкритим кодом, розроблене спільнотою Hentoid (приєднуйтесь до нас у Discord за лінком нижче)</string>
-    <string name="personalDataStatement2">Hentoid збирає наступні персональні дані і ділиться ними з Google для обробки за допомогою бібліотеки Firebase:\n - Ідентифікатор сесії\n - IP-адреса</string>
-    <string name="personalDataStatement3">Вищезазначені дані видаляються як з діючої, так і з запасної систем Firebase протягом 180 днів (подробиці доступні на https://firebase.google.com/support/privacy/)\n\nНіякі інші персональні дані не збираються і не передаються третім особам.</string>
     <string name="about_licenses">Показати ліцензії</string>
     <string name="about_app_version">Версія Hentoid: <x:g id="ver_name" example="1.15.20">%1$s</x:g> (<x:g id="ver_code" example="130">%2$d</x:g>)</string>
     <string name="about_chrome_version">Версія Chrome: <x:g id="chrome_ver" example="98">%1$d</x:g></string>

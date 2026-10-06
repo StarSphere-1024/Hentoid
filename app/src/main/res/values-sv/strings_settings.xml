@@ -179,9 +179,6 @@
     <string name="pref_screenshot_title">Skärmskottsinställningar</string>
     <string name="pref_screenshot_summary_off">App-förhandsvisning i senaste appar + skärmskott avslagna</string>
     <string name="pref_screenshot_summary_on">Skärmskott tillåts</string>
-    <string name="pref_analytics_preference_title">Firebase Analytics</string>
-    <string name="pref_analytics_preference_summary_off">Analytics Tracking är just nu avstängd.\nAtt slå på den här inställningen kommer hjälpa oss att förbättra appen genom spårande av kraschar &amp; undantagsfall.</string>
-    <string name="pref_analytics_preference_summary_on">Analytics Tracking är påslaget.\nTack för hjälpen att förbättra Hentoid!</string>
 
     <!-- Updates -->
     <string name="pref_screen_updates">Uppdateringar</string>

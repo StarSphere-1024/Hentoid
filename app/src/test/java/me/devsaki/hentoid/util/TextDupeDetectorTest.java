@@ -6,10 +6,8 @@ import android.content.Context;
 
 import androidx.test.core.app.ApplicationProvider;
 
-import com.google.firebase.FirebaseApp;
 
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -33,10 +31,6 @@ public class TextDupeDetectorTest {
         Timber.plant(new Timber.DebugTree());
     }
 
-    @Before // Crashes when used inside @BeforeClass. Only valid way to use that is inside @Before
-    public void prepareSupportTools() {
-        FirebaseApp.initializeApp(ApplicationProvider.getApplicationContext());
-    }
 
     @Test
     public void displayDistances() {

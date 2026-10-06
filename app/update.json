@@ -1,8 +1,8 @@
 {
-  "updateURL": "https://github.com/StarSphere-1024/Hentoid/releases/download/v1.20.10/hentoid1210-774.apk",
-  "versionCode": "774",
-  "updateURL.beta": "https://github.com/StarSphere-1024/Hentoid/releases/download/v1.20.0/hentoid1200-747.apk",
-  "versionCode.beta": "999",
+  "updateURL": "https://github.com/StarSphere-1024/Hentoid/releases/download/v1.20.10-fork1/app-release.apk",
+  "versionCode": "775",
+  "updateURL.beta": "",
+  "versionCode.beta": "775",
   "sourceAlerts":[
 	  {"sourceName":"PURURIN", "status":"RED", "fixedByBuild":"204" },
 	  {"sourceName":"LUSCIOUS", "status":"ORANGE", "fixedByBuild":"206" },

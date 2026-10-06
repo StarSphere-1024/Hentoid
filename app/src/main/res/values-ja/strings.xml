@@ -480,9 +480,6 @@
     <string name="biometric_dialog_subtitle_lock">ロックする前に確認してください</string>
     <string name="biometric_dialog_subtitle_unlock">生体認証によるロック解除</string>
     <string name="about1">Hentoidは同人誌＆amp; H-マンガアーカイブアプリ。 Hentoidは、もともとCesar Arasakiによって作成されました。</string>
-    <string name="personalDataStatement1">個人情報のプライバシーに関する声明\n\nHentoidは、Hentoidコミュニティによって管理されている無料のオープンソースソフトウェアです（Discordに参加してください-上記のリンクを参照してください）</string>
-    <string name="personalDataStatement2">Hentoidは次の個人データを収集し、Firebaseライブラリを介して処理するためにGoogleに送信します。\n-セッションID\n-IPアドレス</string>
-    <string name="personalDataStatement3">上記のデータは、180日以内にFirebaseのライブおよびバックアップシステムから削除されます（詳細については、https://firebase.google.com/support/privacy/を参照してください)\n\n他の個人データが収集されたり、他の人に送信されたりすることはありません パーティ。</string>
     <string name="about_licenses">ディスプレイライセンス</string>
     <string name="about_app_version">Hentoid v%1$s (%2$d)</string>
     <string name="about_chrome_version">Chrome v%1$d</string>

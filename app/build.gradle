@@ -5,8 +5,6 @@ plugins {
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'org.sonarqube'
-apply plugin: 'com.google.gms.google-services'
-apply plugin: 'com.google.firebase.crashlytics'
 apply plugin: 'com.mikepenz.aboutlibraries.plugin'
 
 // apply signing configuration if config file exists
@@ -33,11 +31,11 @@ android {
         jvmTarget = JavaVersion.VERSION_17
     }
     defaultConfig {
-        applicationId "me.devsaki.hentoid"
+        applicationId "io.github.starsphere1024.hentoidfork"
         minSdkVersion 26
         targetSdkVersion 35
-        versionCode 130 // is updated automatically by BitRise; only used when building locally
-        versionName '1.20.10'
+        versionCode 775 // Standalone fork release; increment for subsequent fork releases.
+        versionName '1.20.10-fork1'
 
         def includeObjectBoxBrowser = System.getenv("INCLUDE_OBJECTBOX_BROWSER") ?: "false"
         def includeLeakCanary = System.getenv("INCLUDE_LEAK_CANARY") ?: "false"
@@ -298,15 +296,6 @@ dependencies {
     implementation "com.mikepenz:aboutlibraries:$about_version"
 
 
-    /**
-     * ANALYTICS
-     */
-    // Import the BoM for the Firebase platform
-    implementation platform('com.google.firebase:firebase-bom:33.5.1')
-
-    // Crashlytics
-    implementation 'com.google.firebase:firebase-crashlytics'
-    implementation 'com.google.firebase:firebase-analytics'
 }
 
 sonarqube {

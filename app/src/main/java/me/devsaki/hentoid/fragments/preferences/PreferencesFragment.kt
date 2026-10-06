@@ -122,9 +122,7 @@ class PreferencesFragment : PreferenceFragmentCompat(),
             Preferences.Key.DL_THREADS_QUANTITY_LISTS,
             Settings.Key.APP_PREVIEW,
             Settings.Key.FORCE_ENGLISH,
-            Settings.Key.TEXT_SELECT_MENU,
-            Settings.Key.ANALYTICS_PREFERENCE -> onPrefRequiringRestartChanged()
-
+            Settings.Key.TEXT_SELECT_MENU -> onPrefRequiringRestartChanged()
             Settings.Key.EXTERNAL_LIBRARY_URI -> onExternalFolderChanged()
             Preferences.Key.BROWSER_DNS_OVER_HTTPS -> onDoHChanged()
             Settings.Key.WEB_AUGMENTED_BROWSER -> onAugmentedBrowserChanged()

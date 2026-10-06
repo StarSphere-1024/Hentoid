@@ -10,12 +10,10 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ProcessLifecycleOwner
-import com.google.firebase.analytics.FirebaseAnalytics
 import me.devsaki.hentoid.BuildConfig
 import me.devsaki.hentoid.R
 import me.devsaki.hentoid.activities.SplashActivity
 import me.devsaki.hentoid.receiver.WebViewUpdateCycleReceiver
-import me.devsaki.hentoid.timber.CrashlyticsTree
 import me.devsaki.hentoid.util.Preferences
 import me.devsaki.hentoid.util.Settings
 import me.devsaki.hentoid.util.network.WebkitPackageHelper
@@ -41,7 +39,6 @@ class HentoidApp : Application() {
 
         // Timber
         if (BuildConfig.DEBUG) Timber.plant(Timber.DebugTree())
-        Timber.plant(CrashlyticsTree())
 
         // Prefs
         Preferences.init(this)
@@ -52,9 +49,6 @@ class HentoidApp : Application() {
         if (0 == Preferences.getLastKnownAppVersionCode())
             Preferences.setLastKnownAppVersionCode(BuildConfig.VERSION_CODE)
 
-        // Firebase
-        val isAnalyticsEnabled = Settings.isAnalyticsEnabled
-        FirebaseAnalytics.getInstance(this).setAnalyticsCollectionEnabled(isAnalyticsEnabled)
 
         // Make sure the app restarts with the splash screen in case of any unhandled issue
         Thread.setDefaultUncaughtExceptionHandler(

@@ -480,9 +480,6 @@
   <string name="biometric_dialog_subtitle_lock">Confirmar antes de bloquear</string>
   <string name="biometric_dialog_subtitle_unlock">Desbloquear con datos biométricos</string>
   <string name="about1">Hentoid es una aplicación para archivar Doujinshi y Manga-H. Hentoid fue creada originalmente por Cesar Arasaki.</string>
-  <string name="personalDataStatement1">DECLARACIÓN DE PRIVACIDAD DE LOS DATOS PERSONALES\n\nHentoid es un software libre y de código abierto mantenido por la Comunidad Hentoid (únete a nosotros en Discord - ver el enlace más arriba)</string>
-  <string name="personalDataStatement2">Hentoid recopila los siguientes datos personales y los envía a Google para que los procese a través de la librería firebase:\n - ID de sesión\n - Dirección IP</string>
-  <string name="personalDataStatement3">Los datos mencionados se eliminan del sistema Firebase live y de las copias de seguridad en un plazo de 180 días (véase https://firebase.google.com/support/privacy/ para más detalles)\n\nNo se recopilan otros datos personales ni se envían a ninguna otra parte. </string>
   <string name="about_licenses">Mostrar licencias</string>
   <string name="about_app_version">Hentoid v%1$s (%2$d)</string>
   <string name="about_chrome_version">Chrome v%1$d</string>

@@ -12,7 +12,6 @@ import androidx.documentfile.provider.DocumentFile
 import androidx.work.ExistingWorkPolicy
 import androidx.work.OneTimeWorkRequest
 import androidx.work.WorkManager
-import com.google.firebase.crashlytics.FirebaseCrashlytics
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import me.devsaki.hentoid.R
@@ -346,13 +345,9 @@ fun updateQueueJson(context: Context, dao: CollectionDAO): Boolean {
         // even though all the file existence checks are in place
         // ("Failed to determine if primary:.Hentoid/queue.json is child of primary:.Hentoid: java.io.FileNotFoundException: Missing file for primary:.Hentoid/queue.json at /storage/emulated/0/.Hentoid/queue.json")
         Timber.e(e)
-        val crashlytics = FirebaseCrashlytics.getInstance()
-        crashlytics.recordException(e)
         return false
     } catch (e: IllegalArgumentException) {
         Timber.e(e)
-        val crashlytics = FirebaseCrashlytics.getInstance()
-        crashlytics.recordException(e)
         return false
     }
     return true

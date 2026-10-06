@@ -27,7 +27,6 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
 import com.google.android.material.slider.LabelFormatter
 import com.google.android.material.slider.Slider
-import com.google.firebase.crashlytics.FirebaseCrashlytics
 import io.whitfin.siphash.SipHasher
 import me.devsaki.hentoid.R
 import me.devsaki.hentoid.core.BOOKMARKS_JSON_FILE_NAME
@@ -399,13 +398,9 @@ fun updateBookmarksJson(context: Context, dao: CollectionDAO): Boolean {
         // even though all the file existence checks are in place
         // ("Failed to determine if primary:.Hentoid/queue.json is child of primary:.Hentoid: java.io.FileNotFoundException: Missing file for primary:.Hentoid/queue.json at /storage/emulated/0/.Hentoid/queue.json")
         Timber.e(e)
-        val crashlytics = FirebaseCrashlytics.getInstance()
-        crashlytics.recordException(e)
         return false
     } catch (e: IllegalArgumentException) {
         Timber.e(e)
-        val crashlytics = FirebaseCrashlytics.getInstance()
-        crashlytics.recordException(e)
         return false
     }
     return true
@@ -439,13 +434,9 @@ fun updateRenamingRulesJson(context: Context, dao: CollectionDAO): Boolean {
         // even though all the file existence checks are in place
         // ("Failed to determine if primary:.Hentoid/queue.json is child of primary:.Hentoid: java.io.FileNotFoundException: Missing file for primary:.Hentoid/queue.json at /storage/emulated/0/.Hentoid/queue.json")
         Timber.e(e)
-        val crashlytics = FirebaseCrashlytics.getInstance()
-        crashlytics.recordException(e)
         return false
     } catch (e: IllegalArgumentException) {
         Timber.e(e)
-        val crashlytics = FirebaseCrashlytics.getInstance()
-        crashlytics.recordException(e)
         return false
     }
     return true

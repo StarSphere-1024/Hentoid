@@ -480,9 +480,6 @@
     <string name="biometric_dialog_subtitle_lock">잠금 전 확인</string>
     <string name="biometric_dialog_subtitle_unlock">생체 인식으로 잠금 해제</string>
     <string name="about1">Hentoid는 동인지\n&amp; H-망가 보관 앱입니다. Hentoid는 Cesar Arasaki에 의해 처음으로 만들어졌습니다.</string>
-    <string name="personalDataStatement1">개인 데이터 개인 정보 보호 정책\n\nHentoid는 커뮤니티에서 유지, 관리하는 무료 오픈 소스 소프트웨어입니다 (Discord에 참여하세요 - 위 링크 참조)</string>
-    <string name="personalDataStatement2">Hentoid는 다음 개인 데이터를 수집하고 Google로 보내서 Firebase 라이브러리를 통해 처리합니다:\n - 세션 ID\n - IP 주소</string>
-    <string name="personalDataStatement3">위에서 언급한 데이터는 180일 이내에 Firebase 라이브 및 백업 시스템에서 제거됩니다 (자세한 내용은 https://firebase.google.com/support/privacy/ 참조)\n\n다른 개인 데이터는 수집되거나 제 3자에게 전송되지 않습니다.</string>
     <string name="about_licenses">라이센스 표시</string>
     <string name="about_app_version">Hentoid v%1$s (%2$d)</string>
     <string name="about_chrome_version">Chrome v%1$d</string>

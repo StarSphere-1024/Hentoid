@@ -179,9 +179,6 @@
     <string name="pref_screenshot_title">Enable screenshots</string>
     <string name="pref_screenshot_summary_off">App preview in Recent Apps + screenshots disabled</string>
     <string name="pref_screenshot_summary_on">Screenshots enabled</string>
-    <string name="pref_analytics_preference_title">Firebase Analytics</string>
-    <string name="pref_analytics_preference_summary_off">Analytics Tracking is currently disabled.\nEnabling it will help us improve the app by tracking crashes &amp; exceptions.</string>
-    <string name="pref_analytics_preference_summary_on">Analytics Tracking is on.\nThanks for helping improve Hentoid!</string>
 
     <!-- Updates -->
     <string name="pref_screen_updates">Updates</string>

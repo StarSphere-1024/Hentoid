@@ -716,9 +716,8 @@
 
     <!-- About Activity -->
     <string name="about1"><b>Hentoid</b> is a Doujinshi &amp; H-Manga archiving app. Hentoid was originally created by <b>Cesar Arasaki</b>.</string>
-    <string name="personalDataStatement1"><b>PERSONAL DATA PRIVACY STATEMENT</b>\n\nHentoid is a free and open-source software maintained by the Hentoid Community (join us on Discord - see link above)</string>
-    <string name="personalDataStatement2">Hentoid collects the following personal data and sends them to Google for processing through the firebase library:\n  - Session ID\n  - IP address</string>
-    <string name="personalDataStatement3">The abovementioned data is removed from Firebase live and backup system within 180 days (see https://firebase.google.com/support/privacy/ for more details)\n\nNo other personal data is collected nor sent to any other party.</string>
+    <string name="personalDataStatement1"><b>Personal fork notice</b>\n\nThis unofficial build is based on Hentoid and is not maintained or supported by the upstream project.</string>
+    <string name="personalDataStatement2">This build does not include Firebase Analytics or Crashlytics.</string>
     <string name="about_licenses">Licenses</string>
     <string name="about_achievements">Achievements</string>
     <string name="about_app_version" tools:ignore="MissingTranslation">Hentoid v<x:g example="1.15.20" id="ver_name">%1$s</x:g> (<x:g example="130" id="ver_code">%2$d</x:g>)</string>

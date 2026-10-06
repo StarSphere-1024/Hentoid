@@ -248,9 +248,6 @@
 
     <!-- About Activity -->
     <string name="about1"><b>Hentoid</b> 是一款同人志和 H 漫画归档应用。Hentoid 最初由 <b>Cesar Arasaki</b> 创建。</string>
-    <string name="personalDataStatement1"><b>个人数据隐私声明</b>\n\nHentoid 是由 Hentoid 社区维护的免费开源软件（欢迎加入我们的 Discord - 链接见上方）</string>
-    <string name="personalDataStatement2">Hentoid 会收集以下个人数据，并通过 Firebase 库发送给 Google 进行处理：\n  - 会话 ID\n  - IP 地址</string>
-    <string name="personalDataStatement3">上述数据会在 180 天内从 Firebase 实时系统和备份系统中删除（详情请见 https://firebase.google.com/support/privacy/）\n\n不会收集其他个人数据，也不会将数据发送给任何其他方。</string>
     <string name="about_licenses">许可证</string>
     <string name="about_achievements">成就</string>
     <string name="about_app_version" tools:ignore="MissingTranslation">Hentoid v<x:g example="1.15.20" id="ver_name">%1$s</x:g>（<x:g example="130" id="ver_code">%2$d</x:g>）</string>

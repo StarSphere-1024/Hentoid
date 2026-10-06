@@ -154,9 +154,6 @@
   <string name="pref_screenshot_title">Abilita screenshot</string>
   <string name="pref_screenshot_summary_off">Anteprima dell\'app in app recenti + screenshot disabilitati.</string>
   <string name="pref_screenshot_summary_on">Screenshot abilitati.</string>
-  <string name="pref_analytics_preference_title">Analisi Firebase</string>
-  <string name="pref_analytics_preference_summary_off">Il monitoraggio delle analisi è attualmente disabilitato. \nAbilitarlo ci aiuterà a migliorare l\'app monitorando arresti anomali ed eccezioni.</string>
-  <string name="pref_analytics_preference_summary_on">Il monitoraggio delle analisi è attivo. \nGrazie per aver contribuito a migliorare Hentoid!</string>
   <string name="pref_screen_updates">Aggiornamenti</string>
   <string name="pref_check_updates_manual_title">Controllo manuale degli aggiornamenti</string>
   <string name="pref_check_updates_manual_summary">Controlla manualmente gli aggiornamenti ora.</string>

@@ -31,7 +31,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
-import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.mikepenz.fastadapter.FastAdapter
 import com.mikepenz.fastadapter.IAdapter
 import com.mikepenz.fastadapter.ISelectionListener
@@ -1073,10 +1072,6 @@ class LibraryContentFragment : Fragment(), ChangeGroupDialogFragment.Parent,
             Settings.Key.ENDLESS_SCROLL -> {
                 setPagingMethod(
                     Settings.endlessScroll, activity.get()!!.isEditMode()
-                )
-                FirebaseCrashlytics.getInstance().setCustomKey(
-                    "Library display mode",
-                    if (Settings.endlessScroll) "endless" else "paged"
                 )
                 viewModel.searchContent() // Trigger a blank search
             }

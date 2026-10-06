@@ -3,7 +3,6 @@ package me.devsaki.hentoid.util.download
 import android.app.ActivityManager
 import android.content.Context
 import android.net.Uri
-import com.google.firebase.crashlytics.FirebaseCrashlytics
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -263,8 +262,6 @@ class RequestQueueManager private constructor(
         val threshold = 64
         val maxThreads = 4
         val memoryClass = getMemoryClass(context)
-        val crashlytics = FirebaseCrashlytics.getInstance()
-        crashlytics.setCustomKey("Memory class", memoryClass)
         if (memoryClass == 0) return maxThreads
         val threadCount = ceil(memoryClass.toDouble() / threshold.toDouble()).toInt()
         return min(threadCount, maxThreads)

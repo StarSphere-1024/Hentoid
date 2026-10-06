@@ -1,7 +1,6 @@
 package me.devsaki.hentoid.util
 
 import android.content.Context
-import com.google.firebase.crashlytics.FirebaseCrashlytics
 import me.devsaki.hentoid.R
 import me.devsaki.hentoid.core.GROUPS_JSON_FILE_NAME
 import me.devsaki.hentoid.database.CollectionDAO
@@ -115,8 +114,6 @@ fun updateGroupsJson(context: Context, dao: CollectionDAO): Boolean {
         // even though all the file existence checks are in place
         // ("Failed to determine if primary:.Hentoid/groups.json is child of primary:.Hentoid: java.io.FileNotFoundException: Missing file for primary:.Hentoid/groups.json at /storage/emulated/0/.Hentoid/groups.json")
         Timber.e(e)
-        val crashlytics = FirebaseCrashlytics.getInstance()
-        crashlytics.recordException(e)
         return false
     }
     return true

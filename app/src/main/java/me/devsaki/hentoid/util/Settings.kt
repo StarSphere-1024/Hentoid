@@ -345,7 +345,6 @@ object Settings {
     var isFirstRun: Boolean by BoolSetting(Key.FIRST_RUN, true)
     var isFirstRunProcessComplete: Boolean by BoolSetting(Key.WELCOME_DONE, false)
     var isRefreshJson1Complete: Boolean by BoolSetting(Key.REFRESH_JSON_1_DONE, false)
-    val isAnalyticsEnabled: Boolean by BoolSetting(Key.ANALYTICS_PREFERENCE, true)
     val isAutomaticUpdateEnabled: Boolean by BoolSetting("pref_check_updates", true)
     var isBrowserMode: Boolean by BoolSetting(Key.BROWSER_MODE, false)
     val isForceEnglishLocale: Boolean by BoolSetting(Key.FORCE_ENGLISH, false)
@@ -464,7 +463,6 @@ object Settings {
         const val FIRST_RUN = "pref_first_run"
         const val WELCOME_DONE = "pref_welcome_done"
         const val REFRESH_JSON_1_DONE = "refresh_json_1_done"
-        const val ANALYTICS_PREFERENCE = "pref_analytics_preference"
         const val BROWSER_MODE = "browser_mode"
         const val FORCE_ENGLISH = "force_english"
 

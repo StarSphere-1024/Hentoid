@@ -17,8 +17,6 @@ import coil3.SingletonImageLoader
 import coil3.gif.AnimatedImageDecoder
 import coil3.gif.GifDecoder
 import com.awxkee.jxlcoder.coil.AnimatedJxlDecoder
-import com.google.firebase.analytics.FirebaseAnalytics
-import com.google.firebase.crashlytics.FirebaseCrashlytics
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -143,7 +141,6 @@ object AppStartup {
         return listOf(
             this::initDiskCache,
             this::searchForUpdates,
-            this::sendFirebaseStats,
             this::createBookmarksJson,
             this::createPlugReceiver,
             this::activateTextIntent,
@@ -229,23 +226,6 @@ object AppStartup {
         Timber.i("Run app update : done")
     }
 
-    private fun sendFirebaseStats(context: Context, emitter: (Float) -> Unit) {
-        Timber.i("Send Firebase stats : start")
-        try {
-            FirebaseAnalytics.getInstance(context).setUserProperty(
-                "color_theme", Preferences.getColorTheme().toString()
-            )
-            FirebaseAnalytics.getInstance(context).setUserProperty(
-                "endless", Settings.endlessScroll.toString()
-            )
-            FirebaseCrashlytics.getInstance().setCustomKey(
-                "Library display mode", if (Settings.endlessScroll) "endless" else "paged"
-            )
-        } catch (e: IllegalStateException) { // Happens during unit tests
-            Timber.e(e, "fail@init Crashlytics")
-        }
-        Timber.i("Send Firebase stats : done")
-    }
 
     // Creates the JSON file for bookmarks if it doesn't exist
     private fun createBookmarksJson(context: Context, emitter: (Float) -> Unit) {

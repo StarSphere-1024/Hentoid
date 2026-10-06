@@ -179,9 +179,6 @@
     <string name="pref_screenshot_title">允许截屏</string>
     <string name="pref_screenshot_summary_off">已停用最近任务中的应用预览和截屏</string>
     <string name="pref_screenshot_summary_on">已允许截屏</string>
-    <string name="pref_analytics_preference_title">Firebase Analytics</string>
-    <string name="pref_analytics_preference_summary_off">目前已停用分析跟踪。\n启用后，我们可以通过跟踪崩溃和异常来改进应用。</string>
-    <string name="pref_analytics_preference_summary_on">分析跟踪已启用。\n感谢您帮助改进 Hentoid！</string>
 
     <!-- Updates -->
     <string name="pref_screen_updates">更新</string>

@@ -154,9 +154,6 @@
     <string name="pref_screenshot_title">スクリーンショットを有効にする</string>
     <string name="pref_screenshot_summary_off">最近のアプリのアプリプレビュー+無効なスクリーンショット</string>
     <string name="pref_screenshot_summary_on">スクリーンショットを有効にする</string>
-    <string name="pref_analytics_preference_title">FirebaseAnalytics</string>
-    <string name="pref_analytics_preference_summary_off">アナリティクストラッキングは現在無効になっています。\n有効にすると、クラッシュを追跡してアプリを改善できます＆amp;  例外。</string>
-    <string name="pref_analytics_preference_summary_on">AnalyticsTrackingがオンになっています。\nHentoidの改善にご協力いただきありがとうございます。</string>
     <string name="pref_screen_updates">更新</string>
     <string name="pref_check_updates_manual_title">手動で更新を確認</string>
     <string name="pref_check_updates_manual_summary">今すぐ手動で更新を確認</string>

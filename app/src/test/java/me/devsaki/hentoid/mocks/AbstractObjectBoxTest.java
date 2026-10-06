@@ -2,14 +2,10 @@ package me.devsaki.hentoid.mocks;
 
 import static java.sql.DriverManager.println;
 
-import androidx.test.core.app.ApplicationProvider;
-
-import com.google.firebase.FirebaseApp;
 
 import net.lachlanmckee.timberjunit.TimberTestRule;
 
 import org.junit.AfterClass;
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Rule;
 
@@ -43,10 +39,6 @@ public abstract class AbstractObjectBoxTest {
         Timber.plant(new Timber.DebugTree());
     }
 
-    @Before // Crashes when used inside @BeforeClass. Only valid way to use that is inside @Before
-    public void prepareSupportTools() {
-        FirebaseApp.initializeApp(ApplicationProvider.getApplicationContext());
-    }
 
 
     @AfterClass

@@ -154,9 +154,6 @@
     <string name="pref_screenshot_title">스크린샷 활성화</string>
     <string name="pref_screenshot_summary_off">최근 사용한 앱 목록에 추가 기능과 스크린샷 비활성화</string>
     <string name="pref_screenshot_summary_on">스크린샷 활성화됨</string>
-    <string name="pref_analytics_preference_title">파이어베이스 분석</string>
-    <string name="pref_analytics_preference_summary_off">추적 분석 현재 비활성화됨.\n활성화하면 충돌과 예외 발생을 추적하여 앱을 개선하는 데 도움이 됩니다.</string>
-    <string name="pref_analytics_preference_summary_on">추적 분석이 활성화됨.\nHentoid를 개선하는데 도움을 주셔서 감사합니다!</string>
     <string name="pref_screen_updates">업데이트</string>
     <string name="pref_check_updates_manual_title">업데이트 수동 확인</string>
     <string name="pref_check_updates_manual_summary">업데이트를 수동으로 확인합니다</string>
