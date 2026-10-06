@@ -52,7 +52,7 @@ class NhentaiContent : BaseContentParser() {
     @Selector(value = "#info a[href*='/category']")
     private var categories: List<Element>? = null
 
-    @Selector(value = "#thumbnail-container img[data-src]")
+    @Selector(value = "#thumbnail-container img")
     private var thumbs: List<Element>? = null
 
 

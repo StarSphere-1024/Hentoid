@@ -39,7 +39,7 @@ class NhentaiParser : BaseImageListParser() {
         val doc = getOnlineDocument(content.galleryUrl)
             ?: throw ParseException("Document unreachable : " + content.galleryUrl)
 
-        val thumbs = doc.select("#thumbnail-container img[data-src]").filterNotNull()
+        val thumbs = doc.select("#thumbnail-container img").filterNotNull()
         return parseImages(content, thumbs)
     }
 }
