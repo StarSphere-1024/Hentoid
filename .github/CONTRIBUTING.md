@@ -2,13 +2,13 @@
 
 #### **Did you find a bug?**
 
-* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/AVnetWS/Hentoid/issues/).
+* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/StarSphere-1024/Hentoid/issues/).
 
-* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/AVnetWS/Hentoid/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and an **executable test case** demonstrating the expected behavior that is not occurring. Follow the included template if unsure.
+* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/StarSphere-1024/Hentoid/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and an **executable test case** demonstrating the expected behavior that is not occurring. Follow the included template if unsure.
 
 * If possible, use the relevant bug report templates to create the issue. Templates have been provided and are set up for automatic insertion whenever a new issue has been created, simply follow the same format and replace the text where needed.
 
-* For more detailed information on submitting a bug report and creating an issue, visit our [reporting guidelines](https://github.com/AVnetWS/Hentoid/blob/master/.github/REPORTING_GUIDELINES.md) page.
+* For more detailed information on submitting a bug report and creating an issue, visit our [reporting guidelines](https://github.com/StarSphere-1024/Hentoid/blob/master/.github/REPORTING_GUIDELINES.md) page.
 
 #### **Did you write a patch that fixes a bug?**
 
@@ -30,7 +30,7 @@
 
 #### **Do you want to contribute to the documentation?**
 
-* Please read [Contributing to the Documentation](https://github.com/AVnetWS/Hentoid/blob/master/.github/CONTRIBUTING_DOCUMENTATION.md) page to get started.
+* Please read [Contributing to the Documentation](https://github.com/StarSphere-1024/Hentoid/blob/master/.github/CONTRIBUTING_DOCUMENTATION.md) page to get started.
 
 </br>
 Hentoid is a volunteer effort. We encourage you to pitch in at any time, no matter how small.

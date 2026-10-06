@@ -45,7 +45,7 @@ android {
         buildConfigField "boolean", "INCLUDE_OBJECTBOX_BROWSER", includeObjectBoxBrowser
         buildConfigField "boolean", "INCLUDE_LEAK_CANARY", includeLeakCanary
 
-        buildConfigField 'String', 'GITHUB_API_URL', '"https://api.github.com/repos/avluis/Hentoid/"'
+        buildConfigField 'String', 'GITHUB_API_URL', '"https://api.github.com/repos/StarSphere-1024/Hentoid/"'
 
         proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         resourceConfigurations += ['en', 'ru', 'it', 'uk', 'hu', 'ko', 'ja', 'es', 'sv', 'zh-rCN']
@@ -60,7 +60,7 @@ android {
             applicationIdSuffix ".debug"
             versionNameSuffix "-DEBUG"
 
-            buildConfigField 'String', 'UPDATE_URL', '"https://raw.githubusercontent.com/avluis/Hentoid/dev/app/"'
+            buildConfigField 'String', 'UPDATE_URL', '"https://raw.githubusercontent.com/StarSphere-1024/Hentoid/dev/app/"'
 
             proguardFile 'proguard-rules-debug.pro'
 
@@ -71,7 +71,7 @@ android {
             debuggable false
             minifyEnabled true
 
-            buildConfigField 'String', 'UPDATE_URL', '"https://raw.githubusercontent.com/avluis/Hentoid/master/app/"'
+            buildConfigField 'String', 'UPDATE_URL', '"https://raw.githubusercontent.com/StarSphere-1024/Hentoid/master/app/"'
 
             proguardFile 'proguard-rules-release.pro'
             testProguardFile 'proguard-rules-test.pro'

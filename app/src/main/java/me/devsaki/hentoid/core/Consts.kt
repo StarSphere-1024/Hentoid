@@ -31,9 +31,9 @@ const val WORK_CLOSEABLE = "closeable"
 const val CLOUDFLARE_COOKIE = "cf_clearance"
 
 
-const val URL_GITHUB = "https://github.com/AVnetWS/Hentoid"
-const val URL_GITHUB_WIKI = "https://github.com/AVnetWS/Hentoid/wiki"
+const val URL_GITHUB = "https://github.com/StarSphere-1024/Hentoid"
+const val URL_GITHUB_WIKI = "https://github.com/StarSphere-1024/Hentoid/wiki"
 const val URL_GITHUB_WIKI_TRANSFER =
-    "https://github.com/avluis/Hentoid/wiki/Transferring-your-collection-between-devices"
-const val URL_GITHUB_WIKI_STORAGE = "https://github.com/avluis/Hentoid/wiki/Storage-management"
+    "https://github.com/StarSphere-1024/Hentoid/wiki/Transferring-your-collection-between-devices"
+const val URL_GITHUB_WIKI_STORAGE = "https://github.com/StarSphere-1024/Hentoid/wiki/Storage-management"
 const val URL_DISCORD = "https://discord.gg/QEZ3qk9"
