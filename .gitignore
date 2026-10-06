@@ -68,3 +68,5 @@ signing.gradle
 
 .externalNativeBuild
 .cxx
+
+.vscode/
